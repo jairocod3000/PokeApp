@@ -1,0 +1,35 @@
+.App-main{
+    margin: 0 auto; 
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  .pokemonContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .pokemonContainer a{
+    text-decoration: none;
+  }
+  .moreBtn{
+    padding: 1em;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: .7em;
+    background-color: #1D6DDD;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2em;
+    border-radius: 10px;
+  }
+  .moreBtn:hover{
+    background-color: #12468e;
+    transition: .15s all ease-in-out;
+  }

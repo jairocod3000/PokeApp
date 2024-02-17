@@ -1,0 +1,21 @@
+.pageNotFound{
+    width: 90%; 
+    margin: 0 auto;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e91b0c;
+}
+.pageNotFound h1{
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}

@@ -1,0 +1,35 @@
+.pokeCard{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow:  1px 1px 18px #acacac,
+             -1px -1px 18px #b1b0b0; 
+    padding-bottom: 1em;
+}
+.pokeCard div{
+    background-color: rgb(228, 223, 223);
+    width: 15vw;
+    height: 25vh;
+    border-radius: 10px;
+}
+hr{
+    margin: 0;
+}
+.pokeCard div img{
+    width: 8em;
+}
+.pokeCard:hover{
+    cursor: pointer;
+}
+.pokeCard:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+.pokeType{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

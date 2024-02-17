@@ -1,6 +1,3 @@
-# PokeApp
-Aplicación on-line sobre Pokemons haciendo uso de React como Framework de desarrollo.
-
 # Primero de todo ejecutar el comando "npm install" y luego ejecutar el proyecto con "npm run start"
 
 # Getting Started with Create React App

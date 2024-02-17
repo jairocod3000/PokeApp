@@ -1,0 +1,72 @@
+.detailsContainer{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10vh repeat(2, 1fr);
+    margin: 0 auto;
+    background-color: white;
+    width: 70vw;
+    margin-top: 3em;
+    background-color: rgb(228, 223, 223);
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+.pokeName{
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 4em;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.pokeName h1{
+    font-size: 5em;
+    padding-top: 2em;
+}
+.details{
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 75vh;
+}
+.chart{
+    grid-column: 1 / -1;
+    grid-row: 3 / -1;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.detailsImg{
+    flex-basis: 50%;
+}
+.imagen{
+    width: 100%;
+    padding: 3em;
+}
+.details-cont{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.detail h3{
+    text-transform: uppercase;
+    font-size: 1.3em;
+}

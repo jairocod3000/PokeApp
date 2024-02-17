@@ -1,0 +1,88 @@
+.App-main{
+    width: 100%; 
+}
+.pokemonsCartas{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1em;
+    background-color: #a05601;
+    width: 100%;
+    padding: 2em 10em 2em 10em;
+}
+.pokemonsCartas-cartas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+.pokemonsCartas-title{
+    color: white !important;
+}
+.pokemonsCartas img{
+    width: 18vw;
+}
+.sectionTitle{
+    margin: 1em;
+}
+.sectionTitle2{
+    margin-top: 2em;
+    width: 70%;
+}
+.section2{
+    width: 70vw;
+    height: 80vh;
+    background-image: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/sword-shield/pokemon-in-the-wild.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4em;
+    margin-top: 2em;
+    box-shadow:  5px 5px 20px #d9d9d9,
+             -5px -5px 20px #ffffff;
+}
+.section2-text{
+    color: white;
+}
+.carousel-indicators{
+    display: none;
+}
+.imagenSection{
+    width: 80%;
+    margin: 0 auto;
+}
+.section3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #a05601;
+}
+.pokemonsCartas-title2{margin-top: 1em; color: white !important;}
+.section3 img{
+    width: 50%;
+    margin:  0 auto;
+}
+#gameBtn{
+    border: none;
+    outline: none;
+    background-color: #1D6DDD;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding: 5px;
+}
+#gameBtn:hover{
+    background-color: #0c4ca7;
+    transition: all .2s ease-in-out;
+}
+#footer{
+    color: white;
+    width: 100%;
+}
